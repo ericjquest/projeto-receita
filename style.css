@@ -9,8 +9,9 @@
 }
 
 body {
-  background-image: url(assets/bg-image.jpg);
-  background-size: cover;
+  background-image: url(assets/bg-image.png);
+  background-size: 100%;
+  background-color: #573824;
 }
 
 #page {
@@ -19,7 +20,7 @@ body {
   padding: 24px;
   background-color: #F0E8C2;
   border-radius: 24px;
-  margin: 48px auto;
+  margin: 48px auto 28px;
 }
 
 img {
@@ -39,7 +40,7 @@ section + section {
 }
 
 ul {
-  padding-left: 36px;
+  padding-left: 24px;
 }
 
 h1 {
@@ -55,4 +56,14 @@ h1, h2 {
   color: #291B1A;
   margin-bottom: 4px;
   line-height: 150%;
+}
+
+footer {
+  color: #F0E8C2;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+footer img {
+  vertical-align: middle;
 }
